@@ -5,6 +5,8 @@
   "formed" : 2016,
   "secretBase" : "Super tower",
   "active" : true,
+  "creatore" : "Gioele Specogna",
+  "data" : "14/5/2024",
 
 
   "members" : [
@@ -54,9 +56,6 @@
   ],
 
  
-  "creatore" : "Gioele Specogna",
-"data" : "14/5/2024"
-
 
 
 }
