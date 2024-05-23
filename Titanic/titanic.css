@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+.rowdies-light {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+body{
+
+background-color: #a9a9;
+font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #343434;
+}
+
+
+#box{
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+
+.intro{
+
+text-align: center;
+margin: 1rem 2rem;
+}
+
+#box div{
+
+border: 2px solid #343333;
+border-radius: 4px;
+margin: 0.4rem;
+padding: 0.4rem;
+width: 15%;
+
+}
+
+#box div p{
+
+  font-size: 1.1rem;
+
+}
+
+
+h1{
+
+text-align: center;
+font-size: 3.5rem;
+color: #343333;
+
+
+}
+
+
+#pagLink{
+
+text-align: center;
+font-size: 1.5rem;
+color: #eeeeed;
+margin: 1rem 2rem;
+
+}
+
+#pagLink:hover{
+
+background-color: #eeeeed;
+border-radius: 7px;
+color: #343333;
+}
+
+
+
+.mainP{
+
+font-size: 1.3rem;
+margin: 1rem 2.5rem;
+
+}
+
+.mainP strong{
+
+font-size: 1.6rem;
+color: #343333;
+}
+
+
+.gallery{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+
+.gallery a{
+
+margin: 2rem 1.7rem;
+
+
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: 2px solid #343333;
+  outline: none;
+  background-color: #eeeeed;
+  color: #343333;
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #343333;
+  color: #eeeeed;
+  border: 2px solid #eeeeed;
+}
+
+
+
+
+
