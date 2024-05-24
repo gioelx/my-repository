@@ -41,17 +41,58 @@ for (const passenger of passengers){
 
 
 
+
+
 	myH2.textContent = passenger.Name;
 
-	myP1.textContent = passenger.Sex;
+	myP1.textContent = `Sex: ${passenger.Sex}`;
 
-	myP2.textContent = passenger.Age;
+	myP2.textContent = `Age: ${passenger.Age}`;
 
-	myP3.textContent = passenger.Embarked;
+	
+//If per trasformare dall'iniziale della città all
 
-	myP4.textContent = passenger.Pclass;
 
-	myP5.textContent = passenger.Survived;
+	if(passenger.Embarked === "C"){
+
+		myP3.textContent = `Embarked from: Cherbourg`;
+
+
+	}else if(passenger.Embarked === "Q"){
+
+		myP3.textContent = `Embarked from: Queenstown`;
+
+
+	}else if(passenger.Embarked === "S"){
+
+
+		myP3.textContent = `Embarked from: Southampton`;
+
+
+	}
+
+
+//If per trasformare sopravvissuti da 1 e 0 a Si o NO
+
+	if(passenger.Survived === 1){
+
+		myP5.textContent = `Survived: Yes`;
+
+
+	}else if(passenger.Survived === 0){
+
+		myP5.textContent = `Survived: No`;
+
+
+	}
+
+
+
+
+
+
+	myP4.textContent = `Class: ${passenger.Pclass}`;
+
 
 
 
